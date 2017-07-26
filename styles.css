@@ -7,11 +7,20 @@ body {
 }
 
 #home-banner{
-  background-image:url(02B4FE8E-AF2E-4FE9-BE69-EB14EB9088C9.jpg);
+  background-image: url("background1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
+}
+#changeBackground{
+  float: right;
+  font-size: 100px;
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
 }
 
 
