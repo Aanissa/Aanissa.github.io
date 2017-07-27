@@ -5,15 +5,21 @@ body {
   font-size: 20px;
   text-decoration: none;
 }
-
+/* my home-banner is my first background image in the first page */
 #home-banner{
+  position: relative;
   background-image: url("background1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
+/* changeBackground is my arrow button to change background on the homepag*/
+
 #changeBackground{
+  position: absolute;
+  top: 1%;
+  right: 5%;
   float: right;
   font-size: 100px;
   background-color: Transparent;
@@ -21,35 +27,60 @@ body {
   cursor:pointer;
   overflow: hidden;
   outline:none;
+  color: #D4E6F1;
+  margin-top : 400px;
+
 }
 
+#myname{
+  position: absolute;
+  top: 40%;
+  left: calc(50% - 150px);
+  left: 42%;
 
+}
 
-h1{
-  color: #FF6666;
-  font-family: 'Zilla Slab', serif;
-  font-size: 50px;
+#myname{ /* Anissa Arakal top heading homepage*/
+  color: #FA9083;
+  font-family: 'Arapey', serif;
+  font-size:70px;
   text-align: center;
-  text-decoration: underline;
 }
 h2{
-  color:#39A3B7;
+  color:#3D546C;
   font-family: 'Zilla Slab', serif;
   font-size: 30px;
   text-align: center;
 }
 ul {
   list-style: none;
+  white-space: nowrap;
 }
 
-ul li {
+#nav {
+  position: absolute;
+  top: 0;
+}
+
+#nav li { /*top of page tabs to link to new parts of page*/
   float:left;
   overflow: hidden;
-  padding: 15px;
-  border: 10px double#FF9393;
+  padding: 20px;
+  padding-left: 65px;
+  padding-right: 65px;
+  border-top: : 100px;
+  border-top-color: #667886;
+  border-top-style: double;
+  border-bottom: : 100px;
+  border-bottom-color: #667886;
+  border-bottom-style: double;
+  background-color: #93ACC0;
   max-width: 150px;
-  margin: 60px;
+  margin: 5px;
   font-size: 20;
+  margin-top: 1;
+
+
 }
 
 p {
