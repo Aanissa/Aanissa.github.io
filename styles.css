@@ -1,5 +1,6 @@
 body {
   font-family: 'Muli';
+  background-color: #DFEDEF;
 
 ;
   font-size: 20px;
@@ -31,6 +32,23 @@ body {
   margin-top : 400px;
 
 }
+
+#changeBackgroundBack{
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  float: left;
+  font-size: 100px;
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color: #D4E6F1;
+  margin-top : 400px;
+
+}
+
 
 #myname{
   position: absolute;
@@ -108,4 +126,41 @@ p {
 #scratchgame {
   margin-top: 300px;
   text-shadow: 30px;
+}
+
+#sistersPic{
+  height: 304px;
+   width: 228px;
+   margin-left: 100px;
+   margin-right: 75px;
+   margin-top: 50px;
+   border: 15px #93ACC0 double;
+}
+#teddyPic{
+  height: 305px;
+   width: 305px;
+  margin-right: 75px;
+   border: 15px #93ACC0 double;
+  margin-top: 50px;
+}
+#familyPic{
+  width:406px;
+   margin-right: 75px;
+  height: 304px;
+  border: 15px #93ACC0 double;
+  margin-top: 50px;
+
+}
+#skyline{
+  width:937px;
+  height: 146px;
+  margin-left: 200px;
+}
+
+#XClegs{
+  width:233px;
+  height: 174px;
+  border: 15px #93ACC0 double;
+  margin-right: 100px;
+  margin-top: :300px;
 }
