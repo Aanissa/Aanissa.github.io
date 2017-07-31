@@ -1,7 +1,7 @@
 body {
   font-family: 'Muli';
   background-color: #DFEDEF;
-
+  color:#3D546C
 ;
   font-size: 20px;
   text-decoration: none;
@@ -30,25 +30,7 @@ body {
   outline:none;
   color: #D4E6F1;
   margin-top : 400px;
-
 }
-
-#changeBackgroundBack{
-  position: absolute;
-  top: 1%;
-  left: 5%;
-  float: left;
-  font-size: 100px;
-  background-color: Transparent;
-  border: none;
-  cursor:pointer;
-  overflow: hidden;
-  outline:none;
-  color: #D4E6F1;
-  margin-top : 400px;
-
-}
-
 
 #myname{
   position: absolute;
@@ -78,6 +60,13 @@ ul {
 #nav {
   position: absolute;
   top: 0;
+}
+
+a:link, a:visited {
+ color:#3D546C;
+}
+a:hover {
+    color: #993299;
 }
 
 #nav li { /*top of page tabs to link to new parts of page*/
@@ -152,9 +141,9 @@ p {
 
 }
 #skyline{
-  width:937px;
+  width:1405px;
   height: 146px;
-  margin-left: 200px;
+  margin-top: 50px;
 }
 
 #XClegs{
