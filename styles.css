@@ -51,6 +51,7 @@ h2{
   font-family: 'Zilla Slab', serif;
   font-size: 30px;
   text-align: center;
+  text-decoration: underline;
 }
 ul {
   list-style: none;
@@ -152,4 +153,9 @@ p {
   border: 15px #93ACC0 double;
   margin-right: 100px;
   margin-top: :300px;
+}
+
+#revenge{
+  margin-right: 200px;
+
 }
