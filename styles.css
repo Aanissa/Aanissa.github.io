@@ -15,7 +15,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 125vh;
+  height: 140vh;
 }
 
 .mySlides {
@@ -179,11 +179,11 @@ a:hover {
   border-bottom-style: double;
   background-color: #93ACC0;
   max-width: 150px;
-  margin: 25px;
   font-size: 20;
-  margin-top: 1;
-
-
+  margin-top: 1px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 p {
@@ -254,4 +254,9 @@ p {
 #revenge{
   margin-right: 200px;
 
+}
+#spotify{
+  margin-right: 250px;
+  margin-bottom: 100px;
+  border: solid 6px #8ACC84;
 }
