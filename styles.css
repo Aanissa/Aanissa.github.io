@@ -2,21 +2,112 @@ body {
   font-family: 'Muli';
   background-color: #DFEDEF;
   color:#3D546C
-;
-  font-size: 20px;
-  text-decoration: none;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  size: cover;
+  position: center;
+  margin: auto;
+}
+
+.mySlides {
+    display: "none"
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 /* my home-banner is my first background image in the first page */
-#home-banner{
+/*#home-banner{
   position: relative;
   background-image: url("background1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
-}
+}*/
 /* changeBackground is my arrow button to change background on the homepag*/
-
+/*
 #changeBackground{
   position: absolute;
   top: 1%;
@@ -30,7 +121,7 @@ body {
   outline:none;
   color: #D4E6F1;
   margin-top : 400px;
-}
+}*/
 
 #myname{
   position: absolute;
@@ -145,6 +236,7 @@ p {
   width:1405px;
   height: 146px;
   margin-top: 50px;
+  border: 15px #93ACC0 double;
 }
 
 #XClegs{
